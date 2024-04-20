@@ -113,13 +113,13 @@ font-weight: 400;
 line-height: 20px;
 
  }
- #client{
+ .section3 .client{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
-    border: 0.2px dashed #0771DE;
+    border: 2.3px dashed #0771DE;
     padding: 10px;
     background-color: rgba(246, 250, 255, 1);
     width: 230px;
@@ -130,7 +130,7 @@ line-height: 20px;
 
  }
 
- #client .image{
+ .section3 .client .image{
    width: 24px;
 height: 24px;
 border-radius: 6px 0px 0px 0px;
@@ -138,13 +138,13 @@ box-shadow: 0px 0.75px 3.63px 0px #596C9409;
 box-shadow: 0px 6px 29px 0px #596C9412;
  }
 
- #client .image img{
+ .section3 .client .image img{
    width: 12px;
    height: 12px;
 
  }
 
- #client  img{
+ .section3 .client  img{
     width: 12px;
 height: 12px;
 
