@@ -1,0 +1,397 @@
+
+.mutedText{
+    color: #83899F;
+}
+
+ body{
+   @font-face {
+    font-family: 'Neo Sans Arabic';
+    src: url('https://fonts.cdnfonts.com/css/neo-sans-arabic');
+                }    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.4px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F3F5F7 ;
+ }
+
+ .deal{
+    width: 490px;
+height: 599px;
+border-radius: 7.83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 0px 475px;
+    padding: 30px;
+
+}
+
+header, .headerCaption{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+header{
+    width: 490px;
+    border-radius: 4.89px 4.89px 0px 0px  ;
+    border: 0.65px solid #DADCE2;
+    padding: 5px;
+border-radius: 4.89px;
+
+
+}
+.headerCaption span{
+font-size: 12px;
+font-weight: 500;
+line-height: 14.4px;
+}
+.headerCaption.image{
+    width: 26px;
+    height: 26px;
+    margin: 12px 14.03px;
+
+
+ }
+
+ .section2 {
+    width: 390px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+ }
+ .section2 .caption{
+    width: 490px;
+    height: 32px;
+    border-radius: 6px;
+    border: 0.65px solid #83899F66;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   font-size: 12px;
+   font-weight: 500;
+   line-height: 14.4px;
+   margin: 5px;
+ }
+.section2 .image{
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    border: 0.65px solid #83899F66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .section2 img{
+    width: 16px;
+    height: 16px;
+    top: 172px;
+    left: 552px;
+    gap: 0px;
+
+ }
+ .section3{
+   width: 490px;
+
+
+ }
+ .section3 .caption span{
+font-size: 10px;
+font-weight: 400;
+line-height: 20px;
+ }
+ .section3 .caption span.mutedText{
+    font-family: Neo Sans Arabic;
+font-size: 8px;
+font-weight: 400;
+line-height: 20px;
+
+ }
+ #client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 0.2px dashed #0771DE;
+    padding: 10px;
+    background-color: rgba(246, 250, 255, 1);
+    width: 230px;
+      height: 73px;
+
+      border-radius: 8px ;
+
+
+ }
+
+ #client .image{
+   width: 24px;
+height: 24px;
+border-radius: 6px 0px 0px 0px;
+box-shadow: 0px 0.75px 3.63px 0px #596C9409;
+box-shadow: 0px 6px 29px 0px #596C9412;
+ }
+
+ #client .image img{
+   width: 12px;
+   height: 12px;
+
+ }
+
+ #client  img{
+    width: 12px;
+height: 12px;
+
+ }
+
+ .searchInput{
+    height: 22px;
+    border-radius: 4px ;
+    border: 1px solid #0771DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+ }
+
+
+.dealPrice{
+   width: 220px;
+   height: 73px;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 20px;
+   border: 0.65px solid #83899F66;
+   padding: 10px;
+   border-radius: 8px ;
+
+}
+
+.dealPrice .searchInput {
+   border: 0.4px solid #83899F4D;
+}
+
+
+.dealSuccess{
+   width: 460px;
+   height: 66px;
+   margin-top: 10px
+
+}
+
+.dealSuccess .caption .rightCaption span{
+    width: 84px;
+    height: 7px;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.dealSuccess .caption .rightCaption{
+    width: 102px;
+    height: 14px;
+}
+.dealSuccess .image img{
+   width: 14px;
+   height: 14px;
+}
+.dealSuccess span{
+   width: 84px;
+height: 7px;
+
+}
+
+.dealSuccess .fileEdit {
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 20px;
+   height: 20px;
+   border: 0.5px solid #E0E0E0;
+   border-radius: 5px;
+
+}
+.dealSuccess .fileEdit img{
+
+   width: 10px;
+   height: 10px;
+}
+
+.dealDetails {
+   margin: 10px;
+}
+
+.dealDetails .column{
+   width: 177px;
+height: 32px;
+}
+.dealDetails span.title{
+height: 7px;
+margin-bottom: 20px;
+}
+
+.dealDetails .image img{
+   width: 26px;
+height: 26px;
+border-radius: 30px;
+border: 0.5px solid #FFFFFF
+}
+
+.dealDetails .userImage{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 24px;
+   height: 25px;   
+   border: 1px solid #83899F;
+   border-radius: 19.2px;
+}
+
+.dealDetails .userImage img{
+   width: 12px;
+   height: 12px;
+}
+
+
+.dealDetails .instaImage img{
+   width: 20px;
+   height: 20px;
+}
+
+.dealDetails .pythonImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;   
+    border-radius: 6.54px;
+    width: 20px;
+    background-color: #00AD8D;
+    ;
+ }
+.dealDetails .pythonImage img{
+   width: 11.11px;
+   height: 11.11px;
+}
+
+.section4{
+    width: 461px;
+height: 47px;
+margin: 30px;
+}
+.section5{
+    border: 0.5px solid #83899F66;
+    border-radius: 5px;
+    margin: 30px;
+}
+.section5 .title{
+    width: 460px;
+    border-bottom: 0.5px solid #83899F66
+}
+.section5 image img{
+    width: 14px;
+    height: 14px;
+}
+
+.productBody{
+width: 460px;
+height: 113px;
+
+}
+
+.productBody .addProuctBtn{
+    width: 60px !important;
+height: 20px !important;
+
+}
+.productBody .addProuctBtn span{
+    width: 40px;
+height: 9px;
+font-size: 9px;
+font-weight: 400;
+line-height: 39px;
+
+}
+.productBody .image {
+    width: 93px;
+height: 56px;
+}
+.productBody img{
+    width: 93px;
+height: 56px;
+
+}
+
+.extraInfo {
+ width: 460px;
+ height: 32px;
+}
+.extraInfo > span{
+    width: 460px;
+height: 32px;
+border-radius: 5px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0.5px solid #83899F66;
+    border-radius: 5px;
+}
+
+.addDeal {
+    border-top: 0.5px solid #E0E1F4
+}
+.addDeal img{
+    width: 10.5px;
+    height: 11.67px;
+}
+.addDeal .vectorImage {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addDeal .rightCol{
+    width: 80px;
+    height: 28px;
+    border: 0.5px solid #E0E1F4
+}
+.addDeal button , .addDeal span{
+    height: 28px !important;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 34.41px;
+}
+.addDeal button.add{
+  margin-left: 1px;
+}
+.addDeal button span{
+    width: 56px;
+height: 7px;
+
+    
+}
+
+.addDeal .leftCol{
+    width: 97.06px;
+height: 28px;
+border-radius: 5.29px;
+
+}
+
+.extraInfo{
+    padding: 5px;
+    margin: 5px;
+}
